@@ -11,6 +11,13 @@ public final class ApiPaths {
     public static final String PACIENTE_AVALIACOES_ANTROPOMETRICAS = PACIENTES + "/{pacienteId}/avaliacoes-antropometricas";
     public static final String PACIENTE_AVALIACAO_ANTROPOMETRICA_POR_ID = PACIENTE_AVALIACOES_ANTROPOMETRICAS + "/{avaliacaoId}";
     public static final String PACIENTE_HISTORICO_ANTROPOMETRICO = PACIENTES + "/{pacienteId}/historico-antropometrico";
+    public static final String PACIENTE_DIETAS = PACIENTES + "/{pacienteId}/dietas";
+    public static final String PACIENTE_DIETA_POR_ID = PACIENTE_DIETAS + "/{dietaId}";
+    public static final String PACIENTE_HISTORICO_DIETAS = PACIENTES + "/{pacienteId}/historico-dietas";
+    public static final String PACIENTE_DIETA_REFEICOES = PACIENTE_DIETA_POR_ID + "/refeicoes";
+    public static final String PACIENTE_DIETA_REFEICAO_POR_ID = PACIENTE_DIETA_REFEICOES + "/{refeicaoId}";
+    public static final String PACIENTE_DIETA_REFEICAO_ITENS = PACIENTE_DIETA_REFEICAO_POR_ID + "/itens";
+    public static final String PACIENTE_DIETA_REFEICAO_ITEM_POR_ID = PACIENTE_DIETA_REFEICAO_ITENS + "/{itemId}";
 
     private ApiPaths() {
         throw new UnsupportedOperationException("Classe utilitária não pode ser instanciada.");
