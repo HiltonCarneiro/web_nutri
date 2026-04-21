@@ -25,6 +25,7 @@ public final class ApiPaths {
     public static final String AGENDAMENTOS = API_V1 + "/agendamentos";
     public static final String AGENDAMENTOS_DO_DIA = AGENDAMENTOS + "/hoje";
     public static final String AGENDAMENTOS_POR_PERIODO = AGENDAMENTOS + "/periodo";
+    public static final String DASHBOARD = API_V1 + "/dashboard";
 
     private ApiPaths() {
         throw new UnsupportedOperationException("Classe utilitária não pode ser instanciada.");

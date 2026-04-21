@@ -23,4 +23,6 @@ public interface DietaRepository extends JpaRepository<Dieta, Long> {
             Long pacienteId,
             Long nutricionistaId
     );
+
+    long countByNutricionistaIdAndAtivaTrueAndAtivoTrue(Long nutricionistaId);
 }
