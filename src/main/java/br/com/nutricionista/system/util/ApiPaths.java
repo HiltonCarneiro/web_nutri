@@ -8,6 +8,9 @@ public final class ApiPaths {
     public static final String PACIENTE_EVOLUCOES = PACIENTES + "/{pacienteId}/evolucoes";
     public static final String PACIENTE_EVOLUCAO_POR_ID = PACIENTE_EVOLUCOES + "/{evolucaoId}";
     public static final String PACIENTE_PRONTUARIO = PACIENTES + "/{pacienteId}/prontuario";
+    public static final String PACIENTE_AVALIACOES_ANTROPOMETRICAS = PACIENTES + "/{pacienteId}/avaliacoes-antropometricas";
+    public static final String PACIENTE_AVALIACAO_ANTROPOMETRICA_POR_ID = PACIENTE_AVALIACOES_ANTROPOMETRICAS + "/{avaliacaoId}";
+    public static final String PACIENTE_HISTORICO_ANTROPOMETRICO = PACIENTES + "/{pacienteId}/historico-antropometrico";
 
     private ApiPaths() {
         throw new UnsupportedOperationException("Classe utilitária não pode ser instanciada.");
