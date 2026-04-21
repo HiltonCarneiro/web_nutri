@@ -4,8 +4,9 @@ import br.com.nutricionista.system.dto.ApiResponse;
 import br.com.nutricionista.system.dto.AtualizacaoEvolucaoRequest;
 import br.com.nutricionista.system.dto.CadastroEvolucaoRequest;
 import br.com.nutricionista.system.dto.EvolucaoConsultaResponse;
-import br.com.nutricionista.system.dto.ProntuarioPacienteResponse;
+import br.com.nutricionista.system.dto.ProntuarioCompletoResponse;
 import br.com.nutricionista.system.service.EvolucaoConsultaService;
+import br.com.nutricionista.system.service.ProntuarioCompletoService;
 import br.com.nutricionista.system.util.ApiPaths;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -19,6 +20,7 @@ import java.util.List;
 public class EvolucaoConsultaController {
 
     private final EvolucaoConsultaService evolucaoConsultaService;
+    private final ProntuarioCompletoService prontuarioCompletoService;
 
     @PostMapping(ApiPaths.PACIENTE_EVOLUCOES)
     public ResponseEntity<ApiResponse<EvolucaoConsultaResponse>> cadastrar(
@@ -70,10 +72,10 @@ public class EvolucaoConsultaController {
     }
 
     @GetMapping(ApiPaths.PACIENTE_PRONTUARIO)
-    public ResponseEntity<ApiResponse<ProntuarioPacienteResponse>> obterProntuarioCompleto(
+    public ResponseEntity<ApiResponse<ProntuarioCompletoResponse>> obterProntuarioCompleto(
             @PathVariable Long pacienteId
     ) {
-        ProntuarioPacienteResponse response = evolucaoConsultaService.obterProntuarioCompleto(pacienteId);
-        return ResponseEntity.ok(ApiResponse.success("Prontuário carregado com sucesso.", response));
+        ProntuarioCompletoResponse response = prontuarioCompletoService.obterProntuarioCompleto(pacienteId);
+        return ResponseEntity.ok(ApiResponse.success("Prontuário completo carregado com sucesso.", response));
     }
 }
