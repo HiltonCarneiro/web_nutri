@@ -1,10 +1,10 @@
 package br.com.nutricionista.system.controller;
 
 import br.com.nutricionista.system.dto.ApiResponse;
-import br.com.nutricionista.system.dto.CadastroNutricionistaRequest;
-import br.com.nutricionista.system.dto.LoginRequest;
-import br.com.nutricionista.system.dto.LoginResponse;
-import br.com.nutricionista.system.dto.NutricionistaResponse;
+import br.com.nutricionista.system.dto.nutricionista.CadastroNutricionistaRequest;
+import br.com.nutricionista.system.dto.login.LoginRequest;
+import br.com.nutricionista.system.dto.login.LoginResponse;
+import br.com.nutricionista.system.dto.nutricionista.NutricionistaResponse;
 import br.com.nutricionista.system.service.AuthService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

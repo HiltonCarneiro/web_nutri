@@ -1,10 +1,10 @@
 package br.com.nutricionista.system.controller;
 
 import br.com.nutricionista.system.dto.ApiResponse;
-import br.com.nutricionista.system.dto.AtualizacaoEvolucaoRequest;
-import br.com.nutricionista.system.dto.CadastroEvolucaoRequest;
-import br.com.nutricionista.system.dto.EvolucaoConsultaResponse;
-import br.com.nutricionista.system.dto.ProntuarioCompletoResponse;
+import br.com.nutricionista.system.dto.prontuario.AtualizacaoEvolucaoRequest;
+import br.com.nutricionista.system.dto.prontuario.CadastroEvolucaoRequest;
+import br.com.nutricionista.system.dto.prontuario.EvolucaoConsultaResponse;
+import br.com.nutricionista.system.dto.prontuario.ProntuarioCompletoResponse;
 import br.com.nutricionista.system.service.EvolucaoConsultaService;
 import br.com.nutricionista.system.service.ProntuarioCompletoService;
 import br.com.nutricionista.system.util.ApiPaths;

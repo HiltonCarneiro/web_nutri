@@ -1,9 +1,9 @@
 package br.com.nutricionista.system.service;
 
-import br.com.nutricionista.system.dto.AtualizacaoAvaliacaoAntropometricaRequest;
-import br.com.nutricionista.system.dto.AvaliacaoAntropometricaResponse;
-import br.com.nutricionista.system.dto.CadastroAvaliacaoAntropometricaRequest;
-import br.com.nutricionista.system.dto.HistoricoAntropometricoResponse;
+import br.com.nutricionista.system.dto.prontuario.AtualizacaoAvaliacaoAntropometricaRequest;
+import br.com.nutricionista.system.dto.prontuario.AvaliacaoAntropometricaResponse;
+import br.com.nutricionista.system.dto.prontuario.CadastroAvaliacaoAntropometricaRequest;
+import br.com.nutricionista.system.dto.prontuario.HistoricoAntropometricoResponse;
 import br.com.nutricionista.system.entity.AvaliacaoAntropometrica;
 import br.com.nutricionista.system.entity.Nutricionista;
 import br.com.nutricionista.system.entity.Paciente;

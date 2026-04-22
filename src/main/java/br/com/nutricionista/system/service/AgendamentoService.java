@@ -1,10 +1,10 @@
 package br.com.nutricionista.system.service;
 
-import br.com.nutricionista.system.dto.AgendamentoResponse;
-import br.com.nutricionista.system.dto.AtualizacaoAgendamentoRequest;
-import br.com.nutricionista.system.dto.AtualizacaoStatusAgendamentoRequest;
-import br.com.nutricionista.system.dto.CadastroAgendamentoRequest;
-import br.com.nutricionista.system.dto.CancelamentoAgendamentoRequest;
+import br.com.nutricionista.system.dto.agendamento.AgendamentoResponse;
+import br.com.nutricionista.system.dto.agendamento.AtualizacaoAgendamentoRequest;
+import br.com.nutricionista.system.dto.agendamento.AtualizacaoStatusAgendamentoRequest;
+import br.com.nutricionista.system.dto.agendamento.CadastroAgendamentoRequest;
+import br.com.nutricionista.system.dto.agendamento.CancelamentoAgendamentoRequest;
 import br.com.nutricionista.system.entity.Agendamento;
 import br.com.nutricionista.system.entity.Nutricionista;
 import br.com.nutricionista.system.entity.Paciente;

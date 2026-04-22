@@ -1,9 +1,9 @@
 package br.com.nutricionista.system.controller;
 
 import br.com.nutricionista.system.dto.ApiResponse;
-import br.com.nutricionista.system.dto.AtualizacaoPacienteRequest;
-import br.com.nutricionista.system.dto.CadastroPacienteRequest;
-import br.com.nutricionista.system.dto.PacienteResponse;
+import br.com.nutricionista.system.dto.paciente.AtualizacaoPacienteRequest;
+import br.com.nutricionista.system.dto.paciente.CadastroPacienteRequest;
+import br.com.nutricionista.system.dto.paciente.PacienteResponse;
 import br.com.nutricionista.system.service.PacienteService;
 import br.com.nutricionista.system.util.ApiPaths;
 import jakarta.validation.Valid;

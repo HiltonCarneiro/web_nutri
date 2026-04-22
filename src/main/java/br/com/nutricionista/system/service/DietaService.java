@@ -1,16 +1,16 @@
 package br.com.nutricionista.system.service;
 
-import br.com.nutricionista.system.dto.AtualizacaoDietaRequest;
-import br.com.nutricionista.system.dto.AtualizacaoItemRefeicaoRequest;
-import br.com.nutricionista.system.dto.AtualizacaoRefeicaoRequest;
-import br.com.nutricionista.system.dto.CadastroDietaRequest;
-import br.com.nutricionista.system.dto.CadastroItemRefeicaoRequest;
-import br.com.nutricionista.system.dto.CadastroRefeicaoRequest;
-import br.com.nutricionista.system.dto.DietaResponse;
-import br.com.nutricionista.system.dto.DietaResumoResponse;
-import br.com.nutricionista.system.dto.HistoricoDietaResponse;
-import br.com.nutricionista.system.dto.ItemRefeicaoResponse;
-import br.com.nutricionista.system.dto.RefeicaoResponse;
+import br.com.nutricionista.system.dto.dieta.AtualizacaoDietaRequest;
+import br.com.nutricionista.system.dto.dieta.AtualizacaoItemRefeicaoRequest;
+import br.com.nutricionista.system.dto.dieta.AtualizacaoRefeicaoRequest;
+import br.com.nutricionista.system.dto.dieta.CadastroDietaRequest;
+import br.com.nutricionista.system.dto.dieta.CadastroItemRefeicaoRequest;
+import br.com.nutricionista.system.dto.dieta.CadastroRefeicaoRequest;
+import br.com.nutricionista.system.dto.dieta.DietaResponse;
+import br.com.nutricionista.system.dto.dieta.DietaResumoResponse;
+import br.com.nutricionista.system.dto.dieta.HistoricoDietaResponse;
+import br.com.nutricionista.system.dto.dieta.ItemRefeicaoResponse;
+import br.com.nutricionista.system.dto.dieta.RefeicaoResponse;
 import br.com.nutricionista.system.entity.Dieta;
 import br.com.nutricionista.system.entity.ItemRefeicao;
 import br.com.nutricionista.system.entity.Nutricionista;

@@ -1,14 +1,14 @@
 package br.com.nutricionista.system.service;
 
-import br.com.nutricionista.system.dto.AvaliacaoAntropometricaResponse;
-import br.com.nutricionista.system.dto.DietaResponse;
-import br.com.nutricionista.system.dto.DietaResumoResponse;
-import br.com.nutricionista.system.dto.EvolucaoConsultaResponse;
-import br.com.nutricionista.system.dto.HistoricoAntropometricoResponse;
-import br.com.nutricionista.system.dto.HistoricoDietaResponse;
-import br.com.nutricionista.system.dto.PacienteResponse;
-import br.com.nutricionista.system.dto.ProntuarioCompletoResponse;
-import br.com.nutricionista.system.dto.ResumoProntuarioResponse;
+import br.com.nutricionista.system.dto.prontuario.AvaliacaoAntropometricaResponse;
+import br.com.nutricionista.system.dto.dieta.DietaResponse;
+import br.com.nutricionista.system.dto.dieta.DietaResumoResponse;
+import br.com.nutricionista.system.dto.prontuario.EvolucaoConsultaResponse;
+import br.com.nutricionista.system.dto.prontuario.HistoricoAntropometricoResponse;
+import br.com.nutricionista.system.dto.dieta.HistoricoDietaResponse;
+import br.com.nutricionista.system.dto.paciente.PacienteResponse;
+import br.com.nutricionista.system.dto.prontuario.ProntuarioCompletoResponse;
+import br.com.nutricionista.system.dto.prontuario.ResumoProntuarioResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

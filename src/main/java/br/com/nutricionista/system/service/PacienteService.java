@@ -1,8 +1,8 @@
 package br.com.nutricionista.system.service;
 
-import br.com.nutricionista.system.dto.AtualizacaoPacienteRequest;
-import br.com.nutricionista.system.dto.CadastroPacienteRequest;
-import br.com.nutricionista.system.dto.PacienteResponse;
+import br.com.nutricionista.system.dto.paciente.AtualizacaoPacienteRequest;
+import br.com.nutricionista.system.dto.paciente.CadastroPacienteRequest;
+import br.com.nutricionista.system.dto.paciente.PacienteResponse;
 import br.com.nutricionista.system.entity.Nutricionista;
 import br.com.nutricionista.system.entity.Paciente;
 import br.com.nutricionista.system.exception.BusinessException;

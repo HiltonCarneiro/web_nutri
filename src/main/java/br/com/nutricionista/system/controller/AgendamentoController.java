@@ -1,11 +1,11 @@
 package br.com.nutricionista.system.controller;
 
-import br.com.nutricionista.system.dto.AgendamentoResponse;
+import br.com.nutricionista.system.dto.agendamento.AgendamentoResponse;
 import br.com.nutricionista.system.dto.ApiResponse;
-import br.com.nutricionista.system.dto.AtualizacaoAgendamentoRequest;
-import br.com.nutricionista.system.dto.AtualizacaoStatusAgendamentoRequest;
-import br.com.nutricionista.system.dto.CadastroAgendamentoRequest;
-import br.com.nutricionista.system.dto.CancelamentoAgendamentoRequest;
+import br.com.nutricionista.system.dto.agendamento.AtualizacaoAgendamentoRequest;
+import br.com.nutricionista.system.dto.agendamento.AtualizacaoStatusAgendamentoRequest;
+import br.com.nutricionista.system.dto.agendamento.CadastroAgendamentoRequest;
+import br.com.nutricionista.system.dto.agendamento.CancelamentoAgendamentoRequest;
 import br.com.nutricionista.system.service.AgendamentoService;
 import br.com.nutricionista.system.util.ApiPaths;
 import jakarta.validation.Valid;

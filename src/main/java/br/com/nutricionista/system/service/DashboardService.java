@@ -1,6 +1,7 @@
 package br.com.nutricionista.system.service;
 
-import br.com.nutricionista.system.dto.*;
+import br.com.nutricionista.system.dto.agendamento.AgendamentoResponse;
+import br.com.nutricionista.system.dto.dashboard.*;
 import br.com.nutricionista.system.entity.Nutricionista;
 import br.com.nutricionista.system.entity.StatusAgendamento;
 import br.com.nutricionista.system.exception.BusinessException;

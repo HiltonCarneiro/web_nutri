@@ -1,7 +1,7 @@
 package br.com.nutricionista.system.controller;
 
 import br.com.nutricionista.system.dto.ApiResponse;
-import br.com.nutricionista.system.dto.DashboardResponse;
+import br.com.nutricionista.system.dto.dashboard.DashboardResponse;
 import br.com.nutricionista.system.service.DashboardService;
 import br.com.nutricionista.system.util.ApiPaths;
 import lombok.RequiredArgsConstructor;

@@ -1,10 +1,10 @@
 package br.com.nutricionista.system.service;
 
-import br.com.nutricionista.system.dto.AtualizacaoEvolucaoRequest;
-import br.com.nutricionista.system.dto.CadastroEvolucaoRequest;
-import br.com.nutricionista.system.dto.EvolucaoConsultaResponse;
-import br.com.nutricionista.system.dto.PacienteResponse;
-import br.com.nutricionista.system.dto.ProntuarioPacienteResponse;
+import br.com.nutricionista.system.dto.prontuario.AtualizacaoEvolucaoRequest;
+import br.com.nutricionista.system.dto.prontuario.CadastroEvolucaoRequest;
+import br.com.nutricionista.system.dto.prontuario.EvolucaoConsultaResponse;
+import br.com.nutricionista.system.dto.paciente.PacienteResponse;
+import br.com.nutricionista.system.dto.prontuario.ProntuarioPacienteResponse;
 import br.com.nutricionista.system.entity.EvolucaoConsulta;
 import br.com.nutricionista.system.entity.Nutricionista;
 import br.com.nutricionista.system.entity.Paciente;

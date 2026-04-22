@@ -1,10 +1,10 @@
 package br.com.nutricionista.system.controller;
 
 import br.com.nutricionista.system.dto.ApiResponse;
-import br.com.nutricionista.system.dto.AtualizacaoAvaliacaoAntropometricaRequest;
-import br.com.nutricionista.system.dto.AvaliacaoAntropometricaResponse;
-import br.com.nutricionista.system.dto.CadastroAvaliacaoAntropometricaRequest;
-import br.com.nutricionista.system.dto.HistoricoAntropometricoResponse;
+import br.com.nutricionista.system.dto.prontuario.AtualizacaoAvaliacaoAntropometricaRequest;
+import br.com.nutricionista.system.dto.prontuario.AvaliacaoAntropometricaResponse;
+import br.com.nutricionista.system.dto.prontuario.CadastroAvaliacaoAntropometricaRequest;
+import br.com.nutricionista.system.dto.prontuario.HistoricoAntropometricoResponse;
 import br.com.nutricionista.system.service.AvaliacaoAntropometricaService;
 import br.com.nutricionista.system.util.ApiPaths;
 import jakarta.validation.Valid;
