@@ -40,7 +40,13 @@ public class SecurityConfig {
                 .csrf(csrf -> csrf.disable())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED))
                 .authorizeHttpRequests(authorize -> authorize
-                        .requestMatchers(HttpMethod.POST, "/auth/cadastro", "/auth/login").permitAll()
+                        .requestMatchers(
+                                HttpMethod.POST,
+                                "/auth/cadastro",
+                                "/auth/login",
+                                "/auth/esqueci-senha",
+                                "/auth/redefinir-senha"
+                        ).permitAll()
                         .requestMatchers(HttpMethod.GET, "/api/v1/health").permitAll()
                         .anyRequest().authenticated()
                 )
